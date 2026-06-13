@@ -19,6 +19,16 @@ const works = [
     url: "https://scoracle-green.vercel.app/",
     status: "開発中",
   },
+  {
+    id: 3,
+    title: "ソダーテ（So Date）",
+    category: "Webアプリ",
+    description:
+      "AIで習慣を育てるコーチングWebアプリ。毎日一言書くだけでAIがパーソナライズされたアドバイスを提供。月額980円のサブスクリプションモデル。",
+    tech: ["Next.js", "Supabase", "Stripe", "Anthropic API", "Vercel"],
+    url: "https://sodate.vercel.app",
+    status: "公開中",
+  },
 ];
 
 export default function Works() {
